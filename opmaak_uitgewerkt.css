@@ -1,0 +1,143 @@
+// Oplossing Vlaamse Ardennen
+@charset "utf-8";
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	margin-top: 1em;
+	margin-bottom: 2em;
+	font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";	
+	color: #F5F5F5;
+}
+#wrapper {
+	width: 1080px;
+	margin-left: auto;
+	margin-right: auto;
+	border: solid 1px #96C647;
+	padding: 0.6em;
+	padding-top:0em;
+}
+nav ul {
+	display: inline-block;	
+	width: 70%;
+	margin-left: 2em;
+}
+nav li {
+	display: inline-block;
+	padding-bottom: 1em;	
+	width: 25%;
+	padding-left: 1.2em;
+	padding-right: 1.8em;
+	border-left: dotted 2px #3D8E42;
+}
+nav li:last-child {
+	border-right: dotted 2px #3D8E42;	
+	margin-right: 0;	
+}
+nav li h1 {
+	font-size: 3em;	
+	color: #96C647;
+	font-variant-caps: all-small-caps;
+	font-family: Consolas, "Courier New", "monospace";
+}
+nav li p {
+	font-size: 0.8em;
+	color: #888;
+}
+nav li:hover { background-color: #96C647;}
+nav li:hover h1 {color: #FFF;
+}
+nav li:hover p {color: #FFF;
+}
+nav a {
+	text-decoration: none;
+	color: inherit;
+	display: block;
+}
+header {
+	position: relative;	
+}
+#opschrift {
+	position: absolute;	
+	right: 1em;
+	bottom: 1em;
+	width: 40%;
+	font-size: 1.5em;
+	font-weight: bold;
+	color: #444;
+	background-color: #DDD;
+	padding: 1em;
+	opacity: 0.7;
+	border-radius: 1em;
+}
+aside {
+	width: 25%;
+	float: left;
+	background-color: #96C647;
+	padding: 0.5em;
+	font-size: 0.9em;
+	color: #FFF;
+	margin-top: 1em;
+}
+aside h1 {
+	font-size: 1.2em;	
+	margin-top: 0em;
+	margin-bottom: 0.5em;
+}
+aside h2 {
+	font-size: 1em;
+	margin-top: 0.6em;
+	margin-bottom: 0.3em;
+}
+section {
+	width: 70%;
+	float: right;
+	padding: 1em;
+}
+section h1 {
+	margin-top: 1.4em;
+	margin-bottom: 0.8em;
+	color: #3D8E42;
+	font-size: 1.3em;
+}
+section p {
+	margin-top: 0.8em;
+	margin-bottom: 0.8em;
+	color: #555;	
+}
+
+footer {
+	clear: both;	
+	background-color: #3D8E42;	
+	color: #FFF;
+	padding: 1em;
+	padding-left: 2em;
+	font-size: 0.9em;
+}
+.kolom {
+	width: 18%;
+	float: left;
+	margin-right: 1em;
+}
+footer h1 {
+	margin-top: 0em;
+	margin-bottom: 0.3em;
+	font-size: 1.3em;
+}
+footer p {
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+}
+footer a {
+	color: inherit;
+	text-decoration: none;
+}
+footer a:hover {
+	text-decoration: underline;	
+}
+#afsluiter {
+	clear: both;
+	padding-top: 1em;
+}
